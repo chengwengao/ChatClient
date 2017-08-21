@@ -1,0 +1,27 @@
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\bin\Debug\07-ChatClientforCommunication.exe
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\bin\Debug\07-ChatClientforCommunication.pdb
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\_07_ChatClientforCommunication.Form1.resources
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\_07_ChatClientforCommunication.Properties.Resources.resources
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\07-ChatClientforCommunication.exe
+E:\传智博客\20110718\个人练习\聊天程序客户端\07-ChatClientforCommunication\obj\x86\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\bin\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\bin\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\_07_ChatClientforCommunication.Form1.resources
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\_07_ChatClientforCommunication.Properties.Resources.resources
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\study\博客园cnblog\博客日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\bin\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\bin\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\_07_ChatClientforCommunication.Form1.resources
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\_07_ChatClientforCommunication.Properties.Resources.resources
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\07-ChatClientforCommunication\obj\x86\Debug\GenerateResource.write.1.tlog

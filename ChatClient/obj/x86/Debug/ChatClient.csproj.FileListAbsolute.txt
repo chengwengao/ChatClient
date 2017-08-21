@@ -1,0 +1,25 @@
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\bin\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\bin\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\ChatClient.Properties.Resources.resources
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现\ChatClient\obj\x86\Debug\ChatClient.FClient.resources
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\bin\Debug\07-ChatClientforCommunication.exe
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\bin\Debug\07-ChatClientforCommunication.pdb
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\ChatClient.FClient.resources
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\ChatClient.Properties.Resources.resources
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\study\博客园cnblogs\博客日志\C#日志\基于C# winform的简易聊天程序的实现一[两端通信]\ChatClient\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\基础服务平台\proj\ChatClient\ChatClient\bin\Debug\07-ChatClientforCommunication.exe
+E:\基础服务平台\proj\ChatClient\ChatClient\bin\Debug\07-ChatClientforCommunication.pdb
+E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\ChatClient.FClient.resources
+E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\ChatClient.Properties.Resources.resources
+E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\ChatClient.csproj.GenerateResource.Cache
+E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.exe
+E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.pdb
