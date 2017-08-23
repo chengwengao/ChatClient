@@ -23,10 +23,10 @@ E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\ChatClient.Proper
 E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\ChatClient.csproj.GenerateResource.Cache
 E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.exe
 E:\基础服务平台\proj\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.pdb
-E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.exe
-E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.pdb
 E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\bin\Debug\07-ChatClientforCommunication.exe
 E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\bin\Debug\07-ChatClientforCommunication.pdb
 E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\ChatClient.FClient.resources
 E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\ChatClient.Properties.Resources.resources
 E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\ChatClient.csproj.GenerateResource.Cache
+E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.exe
+E:\基础服务平台\TCP\ChatClient\ChatClient\ChatClient\obj\x86\Debug\07-ChatClientforCommunication.pdb
