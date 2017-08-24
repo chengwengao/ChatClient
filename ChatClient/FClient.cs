@@ -24,16 +24,13 @@ namespace ChatClient
         Socket socketClient = null; 
         Thread threadClient = null;
 
-        int msgCount = 50; //多条消息数量
-
         //测试
         List<Socket> socketClientList = new List<Socket>();
         List<Thread> threadClientList= new List<Thread>();
 
         private void btnBeginListen_Click(object sender, EventArgs e)
         {
-            //createSingleSocketListen(); 
-            createMultiSocketListen();
+            createSingleSocketListen();
         }
 
         //客户端连接服务端时创建单个套接字监听
@@ -58,7 +55,7 @@ namespace ChatClient
         //客户端连接服务端时模拟多线程创建多个套接字监听
         public void createMultiSocketListen()
         {
-            for (int i=0;i< msgCount; i++)
+            for (int i=0;i< int.Parse(msgSize.Text.Trim()); i++)
             {
                 //定义一个套接字监听  包含3个参数(IP4寻址协议,流式连接,TCP协议)
                 socketClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -220,6 +217,19 @@ namespace ChatClient
             }
             */
             multiClientSendMsg(txtCMsg.Text.Trim());
+            Thread.Sleep(15*1000);  //模拟终端设备每隔15s发送一次
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            msgSize.Text = "";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            createMultiSocketListen();
+            Thread.Sleep(1*1000);
+        }
+
     }
 }
