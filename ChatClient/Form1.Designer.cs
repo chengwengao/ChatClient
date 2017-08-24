@@ -106,7 +106,7 @@ namespace ChatClient
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(103, 21);
             this.txtPort.TabIndex = 21;
-            this.txtPort.Text = "8088";
+            this.txtPort.Text = "10002";
             // 
             // label2
             // 
@@ -123,7 +123,7 @@ namespace ChatClient
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(123, 21);
             this.txtIP.TabIndex = 19;
-            this.txtIP.Text = "192.168.1.47";
+            this.txtIP.Text = "\n106.14.97.98";
             // 
             // label1
             // 
