@@ -91,7 +91,8 @@ namespace ChatClient
                 //将套接字获取到的字节数组转换为人可以看懂的字符串
                 string strRecMsg = ExplainUtils.convertStrMsg(arrRecMsg);
                 //将发送的信息追加到聊天内容文本框中
-                txtMsg.AppendText("So-flash:" + GetCurrentTime() + "\r\n" + strRecMsg + "\r\n");
+                //txtMsg.AppendText("So-flash:" + GetCurrentTime() + "\r\n" + strRecMsg + "\r\n");
+                LogHelper.WriteLog("So-flash:" + GetCurrentTime() + "\r\n" + strRecMsg + "\r\n");
             }
         }
 
@@ -109,7 +110,8 @@ namespace ChatClient
                 //将套接字获取到的字节数组转换为人可以看懂的字符串
                 string strRecMsg = ExplainUtils.convertStrMsg(arrRecMsg);
                 //将发送的信息追加到聊天内容文本框中
-                txtMsg.AppendText("So-flash:" + GetCurrentTime() + "\r\n" + strRecMsg + "\r\n");
+                //txtMsg.AppendText("So-flash:" + GetCurrentTime() + "\r\n" + strRecMsg + "\r\n");
+                LogHelper.WriteLog("So-flash:" + GetCurrentTime() + "\r\n" + strRecMsg + "\r\n");
             }
         }
 
@@ -124,9 +126,11 @@ namespace ChatClient
             //调用客户端套接字发送字节数组
             socketClient.Send(arrClientSendMsg);
             //将发送的信息追加到聊天内容文本框中
-            txtMsg.AppendText("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+            //txtMsg.AppendText("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+            LogHelper.WriteLog("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
         }
 
+        int count = 0;
         /// <summary>
         /// 发送字符串信息到服务端的方法，多个客户端发送同一条消息
         /// </summary>
@@ -141,8 +145,11 @@ namespace ChatClient
                     byte[] arrClientSendMsg = ExplainUtils.HexSpaceStringToByteArray(sendMsg);
                     //调用客户端套接字发送字节数组
                     socketClientList[i].Send(arrClientSendMsg);
+                    count++;
                     //将发送的信息追加到聊天内容文本框中
-                    txtMsg.AppendText("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+                    //txtMsg.AppendText("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+                    LogHelper.WriteLog("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+                    LogHelper.WriteLog("发送消息条数:" +count + "\r\n");
                 }
             }
             
@@ -180,6 +187,8 @@ namespace ChatClient
         private void button1_Click(object sender, EventArgs e)
         {
             txtMsg.Text = "";
+            //LogHelper.WriteLog("普通日志");
+            //LogHelper.ErrorLog("错误日志",new Exception());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -202,7 +211,8 @@ namespace ChatClient
             //调用客户端套接字发送字节数组
             socketClient.Send(arrClientSendMsg);
             //将发送的信息追加到聊天内容文本框中
-            txtMsg.AppendText("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+            //txtMsg.AppendText("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
+            LogHelper.WriteLog("天之涯:" + GetCurrentTime() + "\r\n" + sendMsg + "\r\n");
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -216,8 +226,11 @@ namespace ChatClient
                 //Thread.Sleep(2000);
             }
             */
-            multiClientSendMsg(txtCMsg.Text.Trim());
-            Thread.Sleep(15*1000);  //模拟终端设备每隔15s发送一次
+            while (true)
+            {
+                multiClientSendMsg(txtCMsg.Text.Trim());
+                Thread.Sleep(3 * 1000);  //模拟终端设备每隔3s发送一次
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)

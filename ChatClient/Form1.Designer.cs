@@ -106,7 +106,7 @@ namespace ChatClient
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(103, 21);
             this.txtPort.TabIndex = 21;
-            this.txtPort.Text = "10002";
+            this.txtPort.Text = "10003";
             // 
             // label2
             // 
@@ -123,7 +123,7 @@ namespace ChatClient
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(123, 21);
             this.txtIP.TabIndex = 19;
-            this.txtIP.Text = "\n106.14.97.98";
+            this.txtIP.Text = "127.0.0.1";
             // 
             // label1
             // 
@@ -189,7 +189,7 @@ namespace ChatClient
             this.msgSize.Name = "msgSize";
             this.msgSize.Size = new System.Drawing.Size(140, 21);
             this.msgSize.TabIndex = 34;
-            this.msgSize.Text = "50";
+            this.msgSize.Text = "1000";
             this.msgSize.TextChanged += new System.EventHandler(this.msgSize_TextChanged);
             // 
             // label5
