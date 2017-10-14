@@ -52,6 +52,7 @@ namespace ChatClient
             threadClient.Start();
         }
 
+        int totalSum = 0;
         //客户端连接服务端时模拟多线程创建多个套接字监听
         public void createMultiSocketListen()
         {
@@ -75,6 +76,9 @@ namespace ChatClient
                 //启动线程
                 threadClient.Start(i);
             }
+            totalSum += int.Parse(msgSize.Text.Trim());
+            MessageBox.Show(msgSize + "个连接创建成功！");
+            txtMsg.AppendText("总连接数：" + totalSum);
         }
 
         /// <summary>
@@ -131,6 +135,7 @@ namespace ChatClient
         }
 
         int count = 0;
+        byte[] arrClientSendMsg = new byte[1024];
         /// <summary>
         /// 发送字符串信息到服务端的方法，多个客户端发送同一条消息
         /// </summary>
@@ -142,7 +147,7 @@ namespace ChatClient
                 for(int i = 0; i < socketClientList.Count; i++)
                 {
                     //将输入的内容字符串转换为机器可以识别的字节数组
-                    byte[] arrClientSendMsg = ExplainUtils.HexSpaceStringToByteArray(sendMsg);
+                    arrClientSendMsg = ExplainUtils.HexSpaceStringToByteArray(sendMsg);
                     //调用客户端套接字发送字节数组
                     socketClientList[i].Send(arrClientSendMsg);
                     count++;
@@ -241,7 +246,7 @@ namespace ChatClient
         private void button6_Click(object sender, EventArgs e)
         {
             createMultiSocketListen();
-            Thread.Sleep(1*1000);
+            Thread.Sleep(500);
         }
 
     }
